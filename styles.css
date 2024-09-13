@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+/* Main Form Container */
+main {
+    background: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Section Headers */
+form h2 {
+    margin-bottom: 15px;
+    color: #4a90e2;
+    font-size: 1.5em;
+}
+
+/* Form Labels and Inputs */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #f9f9f9;
+    transition: border 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* Form Button */
+form button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #357ab7;
+}
+
+/* Resume Display Styling */
+main h2, main h3 {
+    color: #333;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+/* Button Group Styling for Resume Page */
+main button {
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+main button:hover {
+    background-color: #357ab7;
+}
+
+#shareLinks a {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    color: white;
+    background-color: #1DA1F2;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#shareLinks a.facebook {
+    background-color: #3b5998;
+}
+
+#shareLinks a:hover {
+    opacity: 0.8;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #4a90e2;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+}
